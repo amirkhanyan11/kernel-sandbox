@@ -1,5 +1,5 @@
 
-obj-m += hello-world.o
+obj-m += hello_cdev.o
 
 KERNEL_VERSION=$(shell uname -r)
 
