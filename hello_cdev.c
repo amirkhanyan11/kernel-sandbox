@@ -10,6 +10,8 @@
 #include <linux/module.h>
 
 MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Author");
+MODULE_DESCRIPTION("Character device module");
 
 #define DEVICE_NAME "hello_cdev"
 #define BUFFER_SIZE 2048
@@ -24,7 +26,6 @@ static int my_release(struct inode *inode, struct file *file) {
 }
 
 static int my_open(struct inode *inode, struct file *file) {
-  data_size = 0;
   file->f_pos = 0;
   printk(KERN_INFO "Called open");
   return 0;

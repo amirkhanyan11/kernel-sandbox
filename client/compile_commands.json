@@ -1,0 +1,14 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-o",
+      "client_app.o",
+      "client_app.c"
+    ],
+    "directory": "/home/artyom/Desktop/kernel-client",
+    "file": "/home/artyom/Desktop/kernel-client/client_app.c",
+    "output": "/home/artyom/Desktop/kernel-client/client_app.o"
+  }
+]
